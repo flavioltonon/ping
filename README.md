@@ -8,4 +8,4 @@ You can start the server by running `go run main.go` in a terminal. The server e
 
 ## Running in Docker-friendly environments
 
-You can choose one of the available [Docker images](https://hub.docker.com/repository/docker/flavioltonon/ping/general) and deploy it anywhere.
+You can choose one of the available [Docker images](https://hub.docker.com/r/flavioltonon/ping) and deploy it anywhere.
