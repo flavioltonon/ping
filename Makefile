@@ -8,7 +8,7 @@ install:
 
 tests:
 	@echo "# Running tests..."
-	@go test -cover ./application/services/...
+	@go test -cover ./...
 
 tidy:
 	@echo "# Formatting code..."
