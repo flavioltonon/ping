@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	log.Println("registering routes")
+
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
