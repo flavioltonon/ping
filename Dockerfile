@@ -13,4 +13,4 @@ FROM scratch
 COPY --from=builder /app/bin/ping /
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
-CMD [ "ping" ]
+CMD [ "/ping" ]
