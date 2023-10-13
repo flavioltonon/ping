@@ -23,5 +23,7 @@ func main() {
 
 	log.Printf("listening and serving at %s\n", server.Addr)
 
-	server.ListenAndServe()
+	if err := server.ListenAndServe(); err != nil {
+		log.Fatalf("failed to listen and serve: %v\n", err)
+	}
 }
