@@ -6,10 +6,6 @@ install:
 	@echo "# Installing dependencies..."
 	@go mod tidy
 
-tests:
-	@echo "# Running tests..."
-	@go test -cover ./...
-
 tidy:
 	@echo "# Formatting code..."
 	@go fmt ./...
