@@ -12,7 +12,6 @@ func main() {
 
 	mux.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
 		log.Println("got request")
-
 		w.Write([]byte("Pong"))
 	})
 
